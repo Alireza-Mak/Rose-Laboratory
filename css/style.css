@@ -1,0 +1,59 @@
+/** @format */
+
+body {
+  background: #647d5b;
+  color: white;
+}
+
+.navbar {
+  border-bottom: #d9b02e solid 3px;
+  opacity: 0.8;
+}
+
+#home-section {
+  background-image: url(../img/home-section.jpg);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#home-section .card {
+  background-color: #647d5b;
+}
+#home-section .card-form {
+  opacity: 0.8;
+}
+
+#home-section .fas,
+#create-section .fas {
+  color: #647d5b;
+  background: #ffff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#find-us-section .fas,
+#contact-section .fas {
+  color: #647d5b;
+  background: #d9b02e;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#contact-head-section{
+  background: #d9b12e9e;}
+
